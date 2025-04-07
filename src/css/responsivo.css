@@ -1,96 +1,68 @@
-@media (max-width: 768px) {
-  main::after {
-    display: none; /* Remove o gradiente lateral no mobile */
-  }
+@media (max-width: 768px){
+    main::after{
+        background: linear-gradient(0deg, #000 45%, rgba(0, 0, 0, 0.00) 70%) no-repeat;
+        width: 100vw;
+    }
 
-  main .personagem {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100dvh; /* Altura real no mobile */
-    position: relative;
-  }
+    main .personagem .imagem{
+        height: 85%;
+        object-position: center;
+    }
 
-  main .personagem .imagem {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-  }
+    .conteudo{
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
 
-  .conteudo {
-    position: relative;
-    padding: 16px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 60%, transparent);
-    z-index: 1;
-    text-align: center;
-    width: 100%;
-  }
+    .conteudo .nome-personagem{
+        font-size: 30px;
+    }
 
-  .conteudo .nome-personagem {
-    font-size: 24px;
-    margin-bottom: 8px;
-  }
+    .conteudo .descricao{
+        max-width: 500px;
+    }
 
-  .conteudo .descricao {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 0 8px;
-  }
 
-  .botoes {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: auto;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 0;
-    background-color: rgba(0, 0, 0, 0.85);
-    z-index: 10;
-  }
+    .botoes{
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+    }
 
-  .botoes .botao {
-    width: 60px;
-    height: 60px;
-  }
-}
-/* Telefones menores ainda (tipo 320px de largura) */
-@media (max-width: 480px) {
-  .conteudo .nome-personagem {
-    font-size: 20px;
-  }
+    .botoes .botao{
+        width: 70px;
+        height: 70px;
+    }
 
-  .conteudo .descricao {
-    font-size: 13px;
-  }
-
-  .botoes .botao {
-    width: 50px;
-    height: 50px;
-  }
+    .botoes .botao img{
+        max-width: 70px;
+    }
 }
 
-/* Tablets em paisagem (deitados) */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .conteudo {
-    left: 60px;
-    max-width: 300px;
-  }
+@media (max-width: 425px){
+    main .personagem .imagem{
+        height: auto;
+    }
 
-  .botoes {
-    width: 150px;
-  }
+    .conteudo{
+        top: -20%;
+    }
 
-  .botoes .botao {
-    width: 80px;
-    height: 80px;
-  }
+    .botoes{
+        padding: 20px;
+        top: -10%;
+    }
+
+    .botoes .botao{
+        width: 50px;
+        height: 50px;
+    }
+
+    .botoes .botao img{
+        max-width: 50px;
+    }
 }
