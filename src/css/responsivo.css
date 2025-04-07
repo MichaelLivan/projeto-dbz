@@ -44,7 +44,7 @@
     }
     .botoes {
       padding: 20px;
-      top: -10%;
+      top: 5%;
     }
     .botoes .botao {
       width: 50px;
@@ -73,5 +73,198 @@
     .botoes .botao img {
       max-width: 50px;
     }
+    
+ }
+  @media (max-width: 375px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -100px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
   }
+  @media (max-width: 360px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -150px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 320px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -200px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 280px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -250px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 240px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -300px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 200px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -350px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 160px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -400px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 120px) {
+
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -450px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 96px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -500px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+  @media (max-width: 60px) {
+    main.personagem.imagem {
+      height: auto;
+    }
+    .conteudo {
+      top: -550px;
+    }
+    .botoes {
+      padding: 20px;
+      top: 1%;
+    }
+    .botoes .botao {
+      width: 50px;
+      height: 50px;
+    }
+    .botoes .botao img {
+      max-width: 50px;
+    }
+  }
+
   
